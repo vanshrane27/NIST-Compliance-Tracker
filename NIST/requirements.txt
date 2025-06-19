@@ -1,0 +1,7 @@
+# Core requirements
+
+# No need to list subprocess, json, or os (standard library)
+
+# Optional features
+reportlab  # For PDF export (optional)
+colorama   # For terminal coloring (optional) 

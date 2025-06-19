@@ -1,0 +1,38 @@
+[
+  {
+    "script": "check_users.sh",
+    "control_id": "AC-2",
+    "control_name": "Account Management",
+    "description": "Ensure only authorized, active user accounts exist. No unused or inactive accounts."
+  },
+  {
+    "script": "check_firewall.sh",
+    "control_id": "SC-7",
+    "control_name": "Boundary Protection",
+    "description": "Verify firewall (UFW/iptables) is enabled and properly configured."
+  },
+  {
+    "script": "check_updates.sh",
+    "control_id": "CM-6",
+    "control_name": "System Updates and Patch Management",
+    "description": "Check if system is up-to-date with security patches."
+  },
+  {
+    "script": "check_ssh.sh",
+    "control_id": "AC-17",
+    "control_name": "Remote Access",
+    "description": "Review SSH configuration for secure remote access."
+  },
+  {
+    "script": "check_password_policy.sh",
+    "control_id": "IA-2",
+    "control_name": "Identification and Authentication",
+    "description": "Check password policy in /etc/login.defs for compliance."
+  },
+  {
+    "script": "check_audit_logs.sh",
+    "control_id": "AU-6",
+    "control_name": "Audit Review, Analysis, and Reporting",
+    "description": "Verify audit log configuration and log rotation."
+  }
+] 
